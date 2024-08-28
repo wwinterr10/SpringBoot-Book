@@ -2,7 +2,7 @@
 - 개요 : 스프링 부트를 이용한 도서 관리 사이트
 - 프로젝트 기간 : 2024년 7월 16일 ~ 2024년 7월 22일
 - 프로젝트 인원 : 개인
-- 사용 언어 및 개발 환경 : SpringBoot, HTML, Eclipse
+- 사용 언어 및 개발 환경 : JAVA, SpringBoot, HTML, Eclipse
 - 세부 기능
     1. 도서 전체 조회 기능
     > - index.html로 (http://localhost:8080 입력 시) 전체 도서 조회가 실행되도록 설정
