@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>책 정보 수정</title>
+</head>
+<body>
+	<h1>책 정보 수정</h1>
+	<form action="updateBookControl" method="post">
+		아이디 : <input type="text" name="bookid" th:value="${ book.bookid }"><br>
+		제 목 : <input type="text" name="bookname" th:value="${ book.bookname }"><br>
+		출판사 : <input type="text" name="publisher" th:value="${ book.publisher }"><br>
+		가 격 : <input type="text" name="price" th:value="${ book.price }"><br>
+		<input type="submit" value="수정">
+	</form>
+</body>
+</html>

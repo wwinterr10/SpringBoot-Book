@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>도서 조회</title>
+</head>
+<body>
+	<p th:text="'도서 번호 : ' + ${ book.bookid }"></p>
+	<p th:text="'도서 이름 : ' + ${ book.bookname }"></p>
+	<p th:text="'도서 가격 : ' + ${ book.price }"></p>
+	<p th:text="'출판사 : ' + ${ book.publisher }"></p>
+	<p>
+		<a th:href="@{ /updateBookForm(bookid=${ book.bookid }) }"
+		   th:text="'도서 정보 수정'">
+		</a>
+	</p>
+</body>
+</html>
